@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Olivia Shipley</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Pirata+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="intro">
+    Hi I'm Olivia!
+  <br>
+  <br>
+    </div>
+
+    <!-- Stuff -->
+    <div class="stuff">
+      
+
+<!-- needed an extra div for "bio" to add a little bottom padding -->
+        <div class="bio">
+          <details>
+            <summary>(click here for my bio)</summary>
+            I started in art, found my way to science, and somewhere between fieldwork and teaching myself statistics, realized data visualization was where both lived. I enjoy making the connections between bold ideas and the people that execute them, because the analysis is only half the job. The other half is real, genuine communication. When I'm not doing that, I'm in ballet class, knee-deep in a landscaping project, or building something open source.
+          </details>
+        </div>
+
+
+      <details>
+        <summary>(click here for my fun little websume)</summary><br>
+
+        <!-- School -->
+        <details>
+          <summary>School Experiences</summary>
+
+          <a href="https://future.utsa.edu/programs/master/data-analytics/">
+            <img src="thumbs/vp.png" class="thumb">Master's of Science - The University of Texas at San Antonio
+          </a>
+          <p>Master's of Science in Data Analytics | GPA: 3.98</p>
+          <p>Relevant coursework: Deep Learning &amp; AI, Statistical Modeling (linear regression, survival analysis, time series), SQL, R, Python, Tableau, SAS</p>
+
+          <a href="https://marine.tamu.edu/academics/undergraduate-majors/marine-sciences.html">
+            <img src="thumbs/sp.jpeg" class="thumb">Bachelor of Science - Texas A&M University at Galveston
+          </a>
+          <p>Bachelor of Science in Geological Marine Sciences with Minors in Geology and Oceanography</p>
+          <br><br>
+        </details>
+
+        <!-- Work History -->
+        <details>
+          <summary>Work Experiences</summary>
+
+          <a href="https://www.matrixdesigngroup.com/" target="_blank" rel="noopener noreferrer">
+            <img src="thumbs/matrix.png" class="thumb">Data Analyst | Matrix Design Group
+          </a>
+          <br><br>
+          <summary>Feb 2025 – Present</summary>
+          <ul>
+            <li>Develop and maintain Power BI dashboards for DoD/federal clients including AFIMSC and OSD</li>
+            <li>Build data cleaning and transformation pipelines in R to normalize multi-source datasets</li>
+            <li>Deliver stakeholder-facing reports and presentations to Air Force/Space Force leadership</li>
+            <li>Statistical analysis (data validation, ANOVA, t-tests, etc.) for McClellan is ongoing and remains a large part of my workload</li>
+          </ul>
+
+          <a href="https://www.matrixdesigngroup.com/" target="_blank" rel="noopener noreferrer">
+            <img src="thumbs/matrix.png" class="thumb">Environmental Scientist III | Matrix Design Group
+          </a>
+          <br><br>
+          <summary>Jan 2023 – Feb 2025</summary>
+          <ul>
+            <li>Conducted groundwater sampling and field work across 6+ ADEQ contamination sites in Arizona</li>
+            <li>Led statistical analysis and data validation applying t-tests, ANOVA, and CUSUM control charts in R</li>
+            <li>Managed environmental databases (EnviroData/Chronos) per U.S. EPA National Functional Guidelines</li>
+          </ul>
+
+          <a href="https://marine.tamu.edu/" target="_blank" rel="noopener noreferrer">
+            <img src="thumbs/tamu.png" class="thumb">Research Assistant | Texas A&M University
+          </a>
+          <br><br>
+          <summary>2016 – 2020</summary>
+          <ul>
+            <li>Collected marine sediment samples and oceanographic data across the Caribbean; created bathymetry maps using ArcGIS and R</li>
+            <li>Collaborated with Woods Hole Oceanographic Institution on marine data collection and processing</li>
+            <li>Supported grant proposals securing ~$100,000 in climate research funding; presented at AGU Fall 2019</li>
+          </ul>
+        </details>
+
+        <!-- Fun Links -->
+        <details>
+          <summary>Fun Links</summary>
+          <img class="thumb" src="thumbs/etherpad.png"> <a href="https://my.32bit.cafe/etherpad/" target="_blank" rel="noopener noreferrer"> 32bit.cafe etherpad</a>
+          <br><br>
+          <img class="thumb" src="thumbs/seaslug.png"> <a href="https://seaslug.world/" target="_blank" rel="noopener noreferrer"> seaslug.world</a>
+          <br><br>
+          <img class="thumb" src="thumbs/fontsinuse.png"> <a href="https://fontsinuse.com/in/2/formats/72/album-art?page=4" target="_blank" rel="noopener noreferrer"> Fonts in Use – Album Art</a>
+          <br><br>
+          <img class="thumb" src="thumbs/albumwhale.png"> <a href="https://albumwhale.com/olivia" target="_blank" rel="noopener noreferrer"> albumwhale</a>
+          <br><br>
+        </details>
+
+      </details>
+    </div>
+
+
+
+
+    <!-- CLOCK -->
+    <div id="clock" class="clock"></div>
+
+    <!-- beat buton -->
+    <div class="beat">
+      <details class="b1">
+      <summary>Make a Beat</summary>
+
+              <!-- boom -->
+              <audio id="boom" preload="auto">
+                <source src="sounds/boom.wav" type="audio/wav">
+              </audio>
+              <button onclick="document.getElementById('boom').play();">boom</button>
+              <!-- chit -->
+              <audio id="chit" preload="auto">
+                <source src="sounds/chit.wav" type="audio/wav">
+              </audio>
+              <button onclick="document.getElementById('chit').play();">chit</button>
+              <!-- tick -->
+              <audio id="tick" preload="auto">
+                <source src="sounds/tick.wav" type="audio/wav">
+              </audio>
+              <button onclick="document.getElementById('tick').play();">tick</button>
+              <!-- tiss -->
+              <audio id="tiss" preload="auto">
+                <source src="sounds/tiss.wav" type="audio/wav">
+              </audio>
+              <button onclick="document.getElementById('tiss').play();">tiss</button>
+              <!-- clap -->
+              <audio id="clap" preload="auto">
+                <source src="sounds/clap.wav" type="audio/wav">
+              </audio>
+              <button onclick="document.getElementById('clap').play();">clap</button>
+              <!-- bloop -->
+              <audio id="bloop" preload="auto">
+                <source src="sounds/bloop.wav" type="audio/wav">
+              </audio>
+              <button onclick="document.getElementById('bloop').play();">bloop</button>
+          </div>
+        </details>
+      </div>
+
+    <!-- contact button -->
+    <div class="contact">
+      <details class="b1">
+        <summary>Contact</summary>
+
+       <a href="mailto:oshipley@pm.me">oshipley@pm.me</a><br><br>
+       <a href="https://github.com/ollypop-127" target="_blank" rel="noopener noreferrer">github</a>, <a href="https://rpubs.com/oliveit" target="_blank" rel="noopener noreferrer">rpubs</a>, <a href="https://oliviashipleyy.notion.site/" target="_blank" rel="noopener noreferrer">notion portfolio</a><br>
+      </details>
+    </div>
+
+  </body>
+  <script type="text/javascript" src="code.js">
+  </script>
+</html>
