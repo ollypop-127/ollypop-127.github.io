@@ -3,6 +3,7 @@ body {
   font-family: "Pirata One", system-ui;
   font-weight: 400;
   font-style: normal;
+  color: #f5eed8;
 }
 
 
@@ -11,7 +12,8 @@ body {
   margin: 0.5vw;
   top: 0;
   right: 0;
-  color: grey;
+  color: #f5eed8;
+  font-size: 2.5vh;
   z-index: +1;
 }
 
@@ -19,19 +21,19 @@ body {
   position: relative;
   top: 0;
   left: 0;
-  background-color: white;
+  background-color: #4e3225;
   max-width: 60%;
+  font-size: 5vh;
 }
 
 .stuff {
   position: absolute;
   margin-right: 0.5vw;
   padding-right: 0.5vw;
-  background-color: white;
+  background-color: #4e3225;
 }
 
-.bio
-{
+.bio {
   padding-bottom: 5px;
 }
 
@@ -43,7 +45,8 @@ body {
   left: 0;
   border-style: solid;
   border-width: 2.5px;
-  background-color: white;
+  border-color: #f5eed8;
+  background-color: #4e3225;
   z-index: -2;
 }
 
@@ -51,13 +54,13 @@ body {
   position: fixed;
   margin: 0.5vw;
   padding: 1vw;
-  bottom:0;
+  bottom: 0;
   right: 0;
   border-style: solid;
   border-width: 2.5px;
-  background-color: white;
+  border-color: #f5eed8;
+  background-color: #4e3225;
   z-index: -1;
-
 }
 
 .thumb {
@@ -76,7 +79,7 @@ body {
   position: fixed;
   margin: 0.5vw;
   padding: 1vw;
-  bottom:0;
+  bottom: 0;
   right: 0;
   border-style: solid;
   border-width: 2.5px;
@@ -103,7 +106,7 @@ body {
 /* second class for details tag with no outline */
 .b1 {
   font-size: 4.5vh;
-  outline: 0px solid black
+  outline: 0px solid #f5eed8;
 }
 
 
@@ -120,33 +123,25 @@ video {
 details {
   font-size: 3vh;
   padding: 20px; /* the padding here */
-  outline: 2.5px solid black;
+  outline: 2.5px solid #f5eed8;
+  background-color: #4e3225;
 }
 
 summary {
   cursor: pointer;
-  /* display: block; */
   padding: 10px;
-  margin:-20px; /* negative margin here */
+  margin: -20px; /* negative margin here */
   user-select: none;
 }
 details[open] summary {
-  margin-bottom:20px; /* the bottom the same as padding*/
+  margin-bottom: 20px; /* the bottom the same as padding*/
 }
-
-
-/* video embed */
-
-/*
-.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
-
-.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } */
 
 
 /* link styling */
 
 summary:hover {
-  color: #404040;
+  color: #c9b99a;
 }
 
 summary:active {
@@ -154,21 +149,18 @@ summary:active {
 }
 
 a:link {
-  color: black;
+  color: #f5eed8;
   text-decoration: underline;
   text-decoration-line: underline;
-  /* text-underline-offset: 0.5vw;
-  text-decoration-thickness: 0.3vw; */
-  /* text-decoration-color: black; */
 }
 
 a:visited {
   text-decoration: underline;
-  color: black;
+  color: #f5eed8;
 }
 
 a:hover {
-  color: #404040;
+  color: #c9b99a;
 }
 
 a:active {
@@ -180,5 +172,6 @@ a:active {
     font-size: 6vw;
   }
   .b1 {
-    font-size: 6vw; }
+    font-size: 6vw;
+  }
 }
